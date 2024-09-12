@@ -1,0 +1,18 @@
+2024-09-12 23:17:58.550792+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (login, password, email)
+VALUES ('testuser', 'password', 'test@example.com') [42104-232]
+2024-09-12 23:19:28.505119+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]spring.jpa.hibernate.ddl-auto=create-drop"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+spring.jpa.hibernate.ddl-auto=create-drop [42001-232]
+2024-09-12 23:19:38.155151+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (login, password, email)
+VALUES ('testuser', 'password', 'test@example.com') [42104-232]
+2024-09-12 23:20:30.933037+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "USERS" not found (this database is empty); SQL statement:
+INSERT INTO users (login, password, email)
+VALUES ('testuser', 'password', 'test@example.com') [42104-232]
+2024-09-13 00:05:10.623843+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "delete [*]* from users where users.password = '/login'"; expected "identifier"; SQL statement:
+delete * from users where users.password = '/login' [42001-232]
