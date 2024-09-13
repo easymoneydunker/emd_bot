@@ -27,7 +27,7 @@ public class BotInitializer {
 
     @EventListener({ContextRefreshedEvent.class})
     public void init() throws TelegramApiException {
-        if (botConfig.getToken() == null || botConfig.getBotName() == null) {
+        if (botConfig.getBotToken() == null || botConfig.getBotName() == null) {
             log.error("Bot token or username is not configured.");
             throw new IllegalStateException("Bot token and username must be provided");
         }
