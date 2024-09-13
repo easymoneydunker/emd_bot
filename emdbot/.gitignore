@@ -8,7 +8,7 @@ target/
 
 # Environment files
 *.env
-
+/env/
 # STS (Spring Tool Suite)
 .apt_generated
 .classpath
